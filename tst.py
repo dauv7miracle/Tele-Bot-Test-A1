@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 api_id =   # Your API ID
 api_hash = ""  # Your API Hash
 
-app = Client("aa1", api_id=api_id, api_hash=api_hash)
+app = Client("client name", api_id=api_id, api_hash=api_hash)
 
 @app.on_message(filters.command("ping", prefixes=".") & filters.me)
 async def ping(client, message):
@@ -12,4 +12,5 @@ async def ping(client, message):
 
 if __name__ == "__main__":
     app.run()
+
 
