@@ -2,9 +2,9 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 import asyncio
 
-api_id = 15542958
-api_hash = "115e7c25b2747bd94757e7d2191f7417"
-app = Client("aa1", api_id=api_id, api_hash=api_hash)
+api_id = 
+api_hash = ""
+app = Client("client name", api_id=api_id, api_hash=api_hash)
 
 
 # 🧾 Command menu
@@ -287,3 +287,4 @@ async def clean_invalid_peers(client, message):
 # ✅ Run the app
 print("✅ Userbot is running. Waiting for commands...")
 app.run()
+
